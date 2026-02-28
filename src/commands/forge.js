@@ -15,6 +15,7 @@ import { generateErrorMiddleware } from '../generators/generateErrorMiddleware.j
 import { generateConfig } from '../generators/generateConfig.js';
 import { generateApp } from '../generators/generateApp.js';
 import { generateServer } from '../generators/generateServer.js';
+import { generateProjectPackage } from '../generators/generateProjectPackage.js';
 
 export async function forgeCommand(options) {
     const cwd = process.cwd();
@@ -147,6 +148,11 @@ export async function forgeCommand(options) {
             logger.dryRun('.env.example (added JWT_SECRET & API_KEY)');
         }
     }
+
+    // 8. Generate project package.json
+    logger.section('Package JSON');
+    const projectPackageJson = generateProjectPackage(config);
+    await writeFile(path.join(cwd, 'package.json'), projectPackageJson, { dryRun, noHeader: true });
 
     logger.success('\nForge complete! 🔱');
     if (!dryRun) {

@@ -7,6 +7,10 @@
     "trishul": "./bin/trishul.js"
   },
   "main": "./bin/trishul.js",
+  "files": [
+    "bin",
+    "src"
+  ],
   "scripts": {
     "start": "node bin/trishul.js"
   },
@@ -21,12 +25,20 @@
     "prisma",
     "contract-first"
   ],
-  "author": "",
+  "author": "Your Name",
   "license": "MIT",
   "dependencies": {
     "@inquirer/prompts": "^7.3.2",
     "chalk": "^5.4.1",
     "commander": "^13.1.0",
     "fs-extra": "^11.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/trishul"
+  },
+  "homepage": "https://github.com/yourusername/trishul#readme",
+  "bugs": {
+    "url": "https://github.com/yourusername/trishul/issues"
   }
 }
