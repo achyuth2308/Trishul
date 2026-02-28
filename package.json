@@ -1,10 +1,10 @@
 {
-  "name": "trishul",
+  "name": "@achyuth2308/trishul",
   "version": "1.0.0",
   "description": "Contract-first backend & frontend scaffolding CLI — Define intent. Forge structure. Write only what matters.",
   "type": "module",
   "bin": {
-    "trishul": "bin/trishul.js"
+    "trishul": "./bin/trishul.js"
   },
   "main": "./bin/trishul.js",
   "files": [
@@ -25,7 +25,7 @@
     "prisma",
     "contract-first"
   ],
-  "author": "Your Name",
+  "author": "Achyuth Siva Rao",
   "license": "MIT",
   "dependencies": {
     "@inquirer/prompts": "^7.3.2",
@@ -35,7 +35,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/trishul.git"
+    "url": "https://github.com/yourusername/trishul"
   },
   "homepage": "https://github.com/yourusername/trishul#readme",
   "bugs": {
