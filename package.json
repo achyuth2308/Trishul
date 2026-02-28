@@ -4,7 +4,7 @@
   "description": "Contract-first backend & frontend scaffolding CLI — Define intent. Forge structure. Write only what matters.",
   "type": "module",
   "bin": {
-    "trishul": "./bin/trishul.js"
+    "trishul": "bin/trishul.js"
   },
   "main": "./bin/trishul.js",
   "files": [
@@ -35,7 +35,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/trishul"
+    "url": "git+https://github.com/yourusername/trishul.git"
   },
   "homepage": "https://github.com/yourusername/trishul#readme",
   "bugs": {
