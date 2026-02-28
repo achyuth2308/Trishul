@@ -1,0 +1,1 @@
+{"projectName":"test-app","architecture":"modular-monolith","framework":"express","database":"postgresql","orm":"prisma","auth":true}

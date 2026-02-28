@@ -1,0 +1,32 @@
+{
+  "name": "trishul",
+  "version": "1.0.0",
+  "description": "Contract-first backend & frontend scaffolding CLI — Define intent. Forge structure. Write only what matters.",
+  "type": "module",
+  "bin": {
+    "trishul": "./bin/trishul.js"
+  },
+  "main": "./bin/trishul.js",
+  "scripts": {
+    "start": "node bin/trishul.js"
+  },
+  "keywords": [
+    "cli",
+    "scaffolding",
+    "code-generator",
+    "backend",
+    "frontend",
+    "express",
+    "fastify",
+    "prisma",
+    "contract-first"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@inquirer/prompts": "^7.3.2",
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "fs-extra": "^11.3.0"
+  }
+}
