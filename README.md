@@ -21,7 +21,7 @@ Every command follows the **weapon/forge metaphor**:
 ## Installation
 
 ```bash
-npm install -g trishul
+npm install -g @achyuth2308/trishul
 ```
 
 Or use it directly from the project:
